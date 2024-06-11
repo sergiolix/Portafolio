@@ -202,7 +202,13 @@ span{
   background-size: cover;
   border-radius: 10px;
 }
-
+.imagen_card2{
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/API-REACT.png);
+  background-size: cover;
+  border-radius: 10px;
+}
 .seccion-contacto{
   width: 100vw;
   height: 100vh;
@@ -279,10 +285,3 @@ span{
   color: rgb(78, 191, 243);
 }
 
-.imagen_card2{
-  width: 100%;
-  height: 150px;
-  background-image: url(../img/API-REACT.png);
-  background-size: cover;
-  border-radius: 10px;
-}
