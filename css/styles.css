@@ -278,3 +278,11 @@ span{
   font-size: 1.5em;
   color: rgb(78, 191, 243);
 }
+
+.imagen_card2{
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/API-REACT.png);
+  background-size: cover;
+  border-radius: 10px;
+}
