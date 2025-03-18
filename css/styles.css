@@ -85,15 +85,21 @@ span{
   background-color: rgb(8, 8, 8);
   color:  white;
   display: flex;
+  height: auto;
   
+
+}
+.acercade .Intereses{
+  height: auto;
+  margin: 100px;
   
 }
 .acercade .contenido{
   width: 40vw;
-  height: 20vw;
   margin-left: 10%;
   margin: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .acercade h2{
   color: rgb(78, 191, 243);
@@ -134,10 +140,9 @@ span{
 }
 .portafolio{
   width: 100vw;
-  height: 150vh;
+  height: auto;
   background-color: rgb(12, 12, 12);
   color: aliceblue;
-  
   
 }
 .portafolio .encabezado{
@@ -154,6 +159,8 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
 }
 
 .bloque{
@@ -162,6 +169,7 @@ span{
   background-color: rgba(18, 18, 75, 0.801);
   border-radius: 10px;
   margin: 2em;
+  margin-bottom: 40px;
   
 }
 
@@ -211,7 +219,7 @@ span{
 }
 .seccion-contacto{
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: rgb(8, 8, 8);
   color: aliceblue;
   padding: 3em;
@@ -285,3 +293,85 @@ span{
   color: rgb(78, 191, 243);
 }
 
+@media (max-width: 768px) {
+  .main {
+      grid-template-columns: 1fr; 
+      height: auto;
+      text-align: center;
+      margin-right:0px;
+      width:100%;
+  }
+   .main .contenido {
+    text-align: center; 
+   }
+  .main img {
+      width: 80%; 
+      margin: 20px auto; 
+  }
+
+  .acercade {
+      flex-direction: column;
+  }
+
+  .acercade .contenido,
+  .acercade .Intereses {
+      width: 80%;
+      margin: 20px auto;
+      margin-bottom: 300px;
+      margin-top: 20px;
+      
+  }
+  
+  .acercade .Intereses .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+   }
+   .acercade .Intereses .contenedor .habilidad {
+      margin: 10px; 
+   }
+ .portafolio{
+   height: auto;
+   
+ }
+  .portafolio .contenido {
+      height: auto;
+      flex-direction: column; 
+      padding: 0 10px;
+  }
+
+  .bloque {
+      width: 90%; 
+      margin: 20px auto;
+  }
+
+  .wrapper{
+      height: auto;
+  }
+  .menu{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+  }
+  .menu li{
+      margin: 10px;
+  }
+  .navbar{
+      flex-direction: column;
+      align-items: center;
+  }
+  .seccion-contacto{
+       height: auto;
+       
+       
+  }
+  .seccion-contacto .form {
+    
+    padding: 20px; 
+}
+
+.formu input,
+.formu textarea {
+    margin-bottom: 15px; /
+}
+}
